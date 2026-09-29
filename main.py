@@ -22,7 +22,7 @@ while 1:
     print("3. Search by Disease or Name")
     print("4. View Available Doctors")
     print("5. Discharge & Generate Invoice")
-    print("6. Exit")  # <-- Yahan sirf Exit kar diya hai
+    print("6. Exit")  
     print("="*35)
     
     opt = input("Select an option (1-6): ")

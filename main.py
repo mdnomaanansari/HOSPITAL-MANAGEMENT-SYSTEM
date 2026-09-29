@@ -22,7 +22,7 @@ while 1:
     print("3. Search by Disease or Name")
     print("4. View Available Doctors")
     print("5. Discharge & Generate Invoice")
-    print("6. Save Data & Quit")
+    print("6. Exit")  # <-- Yahan sirf Exit kar diya hai
     print("="*35)
     
     opt = input("Select an option (1-6): ")
@@ -170,11 +170,8 @@ while 1:
         input("\nPress Enter to return to menu...")
 
     elif opt == '6':
-        fw = open(db_file, 'w')
-        fw.write(json.dumps(q))
-        fw.close()
-        print("\nAll patient data securely saved to database.")
-        print("System Shutting Down. Goodbye!")
+        # Yahan se file save karne wala code hata diya gaya hai
+        print("\nSystem Shutting Down. Goodbye!")
         break
         
     else:

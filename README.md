@@ -35,9 +35,3 @@ Upon running the script, you will be presented with a looping main menu. Enter a
 4. View Available Doctors: Lists the doctors hardcoded in the system (Dr. Sharma, Dr. Verma, Dr. Gupta, Dr. Ali).
 5. Discharge & Generate Invoice: Enter the exact name of the patient to generate their final bill and remove them from the system.
 6. Exit: Safely shuts down the application.
-
-IMPORTANT NOTES ON DATA PERSISTENCE
-
-Data Loading: On startup, the script attempts to load existing patient data from a local file named hospital_db.json.
-
-Data Saving (Disabled): In this specific version of the code, the functionality to save new data back to hospital_db.json upon exiting (Option 6) has been intentionally removed. Any patients admitted or discharged during a session will be lost once the application is closed.

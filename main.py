@@ -170,7 +170,6 @@ while 1:
         input("\nPress Enter to return to menu...")
 
     elif opt == '6':
-        # Yahan se file save karne wala code hata diya gaya hai
         print("\nSystem Shutting Down. Goodbye!")
         break
         

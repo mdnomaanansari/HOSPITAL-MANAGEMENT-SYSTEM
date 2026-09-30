@@ -1,8 +1,8 @@
-SmartCare Hospital System
+# SmartCare Hospital System
 
 A simple, command-line Python application designed to manage basic hospital operations, including patient admission, triage prioritization, searching, and automated billing.
 
-FEATURES
+--> FEATURES
 
 Admit New Patients: Captures patient details (name, age, blood group, phone, disease, and severity). Automatically assigns a room type (General Ward, Private Room, or ICU) based on the severity of the condition and randomly assigns an available doctor.
 

@@ -16,4 +16,6 @@ to help patients and workers access easier and transparent.
 
 
 ## HIGH LEVEL FEATURE
--ADD 
+- Add new patients data
+- search patients stored info and data.
+- search by disease and access the data.
